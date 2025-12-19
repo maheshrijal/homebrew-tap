@@ -13,6 +13,8 @@ brew tap maheshrijal/tap
 ### zocli
 A tiny CLI to view and analyze your Zomato order history.
 
+Version: 0.1.1
+
 ```bash
 brew install maheshrijal/tap/zocli
 ```
