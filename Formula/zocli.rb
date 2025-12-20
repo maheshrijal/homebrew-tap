@@ -5,21 +5,21 @@
 class Zocli < Formula
   desc "Unofficial Zomato order tracker CLI"
   homepage "https://github.com/maheshrijal/zocli"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/maheshrijal/zocli/releases/download/v0.1.2/zocli_0.1.2_darwin_amd64.tar.gz"
-      sha256 "2c8469037bac3cfe306afb28926182ce727b98805094083d2a479cc1fd90f83c"
+      url "https://github.com/maheshrijal/zocli/releases/download/v0.1.3/zocli_0.1.3_darwin_amd64.tar.gz"
+      sha256 "ec2374b77a5711edb72ddbd8fd55e2f566704ba84c4077cf69bc37fd805b84d5"
 
       def install
         bin.install "zocli"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/maheshrijal/zocli/releases/download/v0.1.2/zocli_0.1.2_darwin_arm64.tar.gz"
-      sha256 "29a982fe360d2937c910321bee3e258f11d7bc7796d396b5a06d22f4d4f33ee8"
+      url "https://github.com/maheshrijal/zocli/releases/download/v0.1.3/zocli_0.1.3_darwin_arm64.tar.gz"
+      sha256 "3ab734af8b5b04699d491d38a629885320541f22908339e41efa779a61d2b519"
 
       def install
         bin.install "zocli"
@@ -29,15 +29,15 @@ class Zocli < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/maheshrijal/zocli/releases/download/v0.1.2/zocli_0.1.2_linux_amd64.tar.gz"
-      sha256 "8e5230771fd8f19ab8916a40fce99eaab26d8f8f7fe659bdcd9eb96bb8ddcdf2"
+      url "https://github.com/maheshrijal/zocli/releases/download/v0.1.3/zocli_0.1.3_linux_amd64.tar.gz"
+      sha256 "79293d22f671c4d59a81f1bfab8a3b954786e1ae645d2470f5dafe0ab029addc"
       def install
         bin.install "zocli"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/maheshrijal/zocli/releases/download/v0.1.2/zocli_0.1.2_linux_arm64.tar.gz"
-      sha256 "495c37f209312ad7bc9ff6087819952736dca48f5c6874a0a3712c3e9fc8bf04"
+      url "https://github.com/maheshrijal/zocli/releases/download/v0.1.3/zocli_0.1.3_linux_arm64.tar.gz"
+      sha256 "b337caff35b402d96143fc33126b4e1ce60808bf81d43bf42f7d66107a662807"
       def install
         bin.install "zocli"
       end
