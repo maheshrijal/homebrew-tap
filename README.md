@@ -10,6 +10,14 @@ brew tap maheshrijal/tap
 
 ## Available Formulas
 
+
+### blinkcli
+A tiny CLI to view and analyze your Blinkit order history.
+
+```bash
+brew install maheshrijal/tap/blinkcli
+```
+
 ### zocli
 A tiny CLI to view and analyze your Zomato order history.
 
