@@ -8,22 +8,22 @@ This is the official Homebrew tap for Mahesh's CLI tools and utilities.
 brew tap maheshrijal/tap
 ```
 
-## Available Casks
+## Available Formulas
 
 
 ### blinkcli
 A tiny CLI to view and analyze your Blinkit order history.
 
 ```bash
-brew install --cask maheshrijal/tap/blinkcli
+brew install maheshrijal/tap/blinkcli
 ```
 
 ### zocli
 A tiny CLI to view and analyze your Zomato order history.
 
 ```bash
-brew install --cask maheshrijal/tap/zocli
+brew install maheshrijal/tap/zocli
 ```
 
 ## Notes
-Casks are updated automatically on each tagged release.
+Formulas are updated automatically on each tagged release.
