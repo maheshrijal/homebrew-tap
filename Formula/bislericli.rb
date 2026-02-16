@@ -5,21 +5,21 @@
 class Bislericli < Formula
   desc "Unofficial Bisleri order tracker CLI"
   homepage "https://github.com/maheshrijal/bislericli"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/maheshrijal/bislericli/releases/download/v0.1.1/bislericli_0.1.1_darwin_amd64.tar.gz"
-      sha256 "f757b978a7c920ba912b308f3327d5d4df0c0ad41fb806e39e1e0146b3b8326b"
+      url "https://github.com/maheshrijal/bislericli/releases/download/v0.1.2/bislericli_0.1.2_darwin_amd64.tar.gz"
+      sha256 "9a0242565f9070f483e5a54bd8c1e6c095b79c2623d23e2f000c616a7da81b26"
 
       def install
         bin.install "bislericli"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/maheshrijal/bislericli/releases/download/v0.1.1/bislericli_0.1.1_darwin_arm64.tar.gz"
-      sha256 "3712cb8910b2bc06082cc4301bde1bb362388fad818501c0290a813675e24704"
+      url "https://github.com/maheshrijal/bislericli/releases/download/v0.1.2/bislericli_0.1.2_darwin_arm64.tar.gz"
+      sha256 "49b7aa1936b357f07aabb0d6b4d0a856f57c3f8449a5eec55d6ed4ffd6739656"
 
       def install
         bin.install "bislericli"
@@ -29,15 +29,15 @@ class Bislericli < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/maheshrijal/bislericli/releases/download/v0.1.1/bislericli_0.1.1_linux_amd64.tar.gz"
-      sha256 "5d187e01005a998fbf31d2ca87f175d893dfa35807945f300137a49044c05f30"
+      url "https://github.com/maheshrijal/bislericli/releases/download/v0.1.2/bislericli_0.1.2_linux_amd64.tar.gz"
+      sha256 "f43b6ea4a379e067cc96b0342a85d823ad1116ed3768b49ae38a48494be3d2ee"
       def install
         bin.install "bislericli"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/maheshrijal/bislericli/releases/download/v0.1.1/bislericli_0.1.1_linux_arm64.tar.gz"
-      sha256 "08b4f65f49dbb47e839b030793656f55a8b6d3b0533fc0b5cd88fbaf59542ab7"
+      url "https://github.com/maheshrijal/bislericli/releases/download/v0.1.2/bislericli_0.1.2_linux_arm64.tar.gz"
+      sha256 "1b6e829541a600db7bb1050a3eda544ce8a7661aa6e716a9d639b0802f31d90d"
       def install
         bin.install "bislericli"
       end
