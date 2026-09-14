@@ -8,7 +8,7 @@ This is the official Homebrew tap for Mahesh's CLI tools and utilities.
 brew tap maheshrijal/tap
 ```
 
-## Available Formulas
+## Available Packages
 
 ### mysq
 Find slow queries, blocked transactions, and MySQL performance problems from your terminal.
@@ -35,4 +35,4 @@ brew install maheshrijal/tap/zocli
 ```
 
 ## Notes
-The mysq formula currently tracks v0.2.0 and is updated manually. Other formulas are updated automatically on each tagged release.
+Packages are updated automatically on each stable tagged release. mysq is distributed as a cask; existing formula installations migrate on upgrade.
