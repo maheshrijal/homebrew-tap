@@ -10,6 +10,15 @@ brew tap maheshrijal/tap
 
 ## Available Formulas
 
+### mysq
+Find slow queries, blocked transactions, and MySQL performance problems from your terminal.
+
+```fish
+brew install maheshrijal/tap/mysq
+```
+
+Available for macOS and Linux on Intel/AMD and ARM64.
+
 
 ### blinkcli
 A tiny CLI to view and analyze your Blinkit order history.
@@ -26,4 +35,4 @@ brew install maheshrijal/tap/zocli
 ```
 
 ## Notes
-Formulas are updated automatically on each tagged release.
+The mysq formula currently tracks v0.2.0 and is updated manually. Other formulas are updated automatically on each tagged release.
