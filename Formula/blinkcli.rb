@@ -5,21 +5,21 @@
 class Blinkcli < Formula
   desc "Unofficial Blinkit order tracker CLI"
   homepage "https://github.com/maheshrijal/blinkcli"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/maheshrijal/blinkcli/releases/download/v0.1.6/blinkcli_0.1.6_darwin_amd64.tar.gz"
-      sha256 "8c0477a5ab2768ddd9e9642ec99bf709250aea3177b6f9b9d76fab541310e33b"
+      url "https://github.com/maheshrijal/blinkcli/releases/download/v0.1.7/blinkcli_0.1.7_darwin_amd64.tar.gz"
+      sha256 "765afc13a97f4d9a075ab8c4f3b2c6e1db72c3255ce5e1334d118295da492869"
 
       define_method(:install) do
         bin.install "blinkcli"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/maheshrijal/blinkcli/releases/download/v0.1.6/blinkcli_0.1.6_darwin_arm64.tar.gz"
-      sha256 "d55ac6f0ed65eb490d67e26b82a84a0193c869d0ad7515a988ea7147cc497c57"
+      url "https://github.com/maheshrijal/blinkcli/releases/download/v0.1.7/blinkcli_0.1.7_darwin_arm64.tar.gz"
+      sha256 "d46ce61cdb1beebe8190015f074ccb4af8b163ef45e29ca8872732991277b2a4"
 
       define_method(:install) do
         bin.install "blinkcli"
@@ -29,15 +29,15 @@ class Blinkcli < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/maheshrijal/blinkcli/releases/download/v0.1.6/blinkcli_0.1.6_linux_amd64.tar.gz"
-      sha256 "261d64a53c7fd226f0164ebdfc165b5e4ab4e034299b3f3795630d77e94c43e7"
+      url "https://github.com/maheshrijal/blinkcli/releases/download/v0.1.7/blinkcli_0.1.7_linux_amd64.tar.gz"
+      sha256 "ed8d0619a5b4ba97ef753d2e694ed6bff90717ac90b590eb8747006dfdb5d2ab"
       define_method(:install) do
         bin.install "blinkcli"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/maheshrijal/blinkcli/releases/download/v0.1.6/blinkcli_0.1.6_linux_arm64.tar.gz"
-      sha256 "e3e29585e7fba6ad0f26f9e7db91f81e0dfb3aa19759bda5d576305a15a2a87d"
+      url "https://github.com/maheshrijal/blinkcli/releases/download/v0.1.7/blinkcli_0.1.7_linux_arm64.tar.gz"
+      sha256 "81ce2bbcdcbb2a8870e0e49745401a9bd300c8e12ce895534ae1ba179c7d7626"
       define_method(:install) do
         bin.install "blinkcli"
       end
