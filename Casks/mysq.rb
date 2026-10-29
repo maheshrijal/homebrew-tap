@@ -33,9 +33,9 @@ cask "mysq" do
 
   binary "mysq"
 
-  postflight do
-    if OS.mac?
-      system_command "/usr/bin/xattr", args: ["-d", "com.apple.quarantine", "#{staged_path}/mysq"]
+  postflight_steps do
+    on_macos do
+      run "/usr/bin/xattr", args: ["-d", "com.apple.quarantine", "{{staged_path}}/mysq"]
     end
   end
 
